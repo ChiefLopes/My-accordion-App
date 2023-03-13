@@ -1,0 +1,27 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: url(./image/handpen.webp) no-repeat 0 0 / cover;
+}
+.accordion-container {
+  display: flex;
+  justify-content: center;
+  height: 19em;
+  width: 40rem;
+  background-color: aliceblue;
+  position: relative;
+  top: 10rem;
+  left: 20rem;
+  border-radius: 15px;
+}
+
+.accordion-title {
+  font-family: 'Roboto', sans-serif;
+}
